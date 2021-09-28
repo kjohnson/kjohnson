@@ -1,10 +1,8 @@
 ### Hi there 👋
 
-- Ninja Forms
-- GiveWP
-- WordCamp Speaker
-
-💻 [~/.bash_aliases](.bash_aliases)
+- 🔭 I’m currently working on GiveWP, previously Ninja Forms
+- ⚡ Fun fact: "Computers are hard." - Me
+- 💻 [~/.bash_aliases](.bash_aliases)
 
 <!--
 **kjohnson/kjohnson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
