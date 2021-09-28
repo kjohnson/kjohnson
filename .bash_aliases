@@ -13,10 +13,21 @@ function plug() {
         ln -s "$PWD/$1" "/home/kylejohnson/WordPress/wp-content/plugins/$1"
 }
 
-function switchphp() {
-        sudo a2dismod php$1
-        sudo a2enmod php$2
-        sudo update-alternatives --set php /usr/bin/php$2
+function php8() {
+        sudo a2dismod php5.6
+        sudo a2dismod php7.4
+        sudo a2enmod php8.0
         sudo service apache2 restart
-        php -v
+}
+function php7() {
+        sudo a2dismod php5.6
+        sudo a2dismod php8.0
+        sudo a2enmod php7.4
+        sudo service apache2 restart
+}
+function php5() {
+        sudo a2dismod php7.4
+        sudo a2dismod php8.0
+        sudo a2enmod php5.6
+        sudo service apache2 restart
 }
