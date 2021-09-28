@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+- Ninja Forms
+- GiveWP
+- WordCamp Speaker
+
 💻 [~/.bash_aliases](.bash_aliases)
 
 <!--
