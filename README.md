@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+- ![Hacktoberfest 2021 Logo](https://hacktoberfest.digitalocean.com/favicon-16x16.png) Hacktoberfest maintainer, participant
 - 🔭 I’m currently working on GiveWP, previously Ninja Forms
 - ⚡ Fun fact: "Computers are hard." - Me
 - 💻 [~/.bash_aliases](.bash_aliases)
