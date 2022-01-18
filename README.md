@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on GiveWP, previously Ninja Forms
+- 🔭 I’m currently working on [GiveWP](https://givewp.com/), previously [Ninja Forms](https://ninjaforms.com/).
 - ⚡ Fun fact: "Computers are hard."
 - 💻 [~/.bash_aliases](.bash_aliases)
 
