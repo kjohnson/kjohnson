@@ -1,18 +1,36 @@
+# Navigation
+function code() {
+	cd ~/Code
+}
 function wordpress() {
 	cd ~/WordPress
 }
+function homestead() {
+	cd ~/Homestead
+}
 
+# WordPress
 function wpdebug() {
 	pwd=$PWD
 	cd ~/WordPress
 	wp config set WP_DEBUG $1 --raw
 	cd "$pwd"
 }
-
 function plug() {
         ln -s "$PWD/$1" "/home/kylejohnson/WordPress/wp-content/plugins/$1"
 }
 
+# Homestead (Laravel)
+function up() {
+	cd ~/Homestead
+	vagrant up
+}
+function down() {
+	cd ~/Homestead
+	vagrant suspend
+}
+
+# PHP
 function php8() {
         sudo a2dismod php5.6
         sudo a2dismod php7.4
@@ -34,4 +52,3 @@ function php5() {
         sudo service apache2 restart
         sudo update-alternatives --set php /usr/bin/php5.6
 }
-
