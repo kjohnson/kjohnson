@@ -52,3 +52,7 @@ function php5() {
         sudo service apache2 restart
         sudo update-alternatives --set php /usr/bin/php5.6
 }
+
+function phpv() {
+	 sudo apt install php$1-cli php$1-curl php$1-mbstring php$1-mcrypt php$1-xml php$1-zip
+}
