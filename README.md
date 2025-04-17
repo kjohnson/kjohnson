@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 Major project include [GiveWP](https://givewp.com/), [Ninja Forms](https://ninjaforms.com/).
+- 🔭 Major projects include [GiveWP](https://givewp.com/), [Ninja Forms](https://ninjaforms.com/),[SendWP](https://sendwp.com/)
 - ⚡ Fun fact: "Computers are hard."
 - 💻 [~/.bash_aliases](.bash_aliases)
 
